@@ -1,1 +1,14 @@
-console.log('Im Working. Im JS. Im Beautiful. Im worth it');
+const kyuInfo = {
+    name:"Kyu",
+    age:31,
+    gender:"Male",
+    isHandsome:true
+}
+
+
+console.log(kyuInfo.age)
+
+
+kyuInfo.age = 32
+
+console.log(kyuInfo.age)
